@@ -43,7 +43,7 @@
     <div class="interests-strip"><div class="page-width"><span class="tiny-label">RESEARCH INTERESTS</span><p>Combustion &amp; propulsion <span aria-hidden="true">/</span> Scientific machine learning <span aria-hidden="true">/</span> Reliable numerical methods</p></div></div>
 
     <section class="research-section page-width" id="research" aria-labelledby="research-title">
-      <div class="section-heading"><div><p class="eyebrow">01 / RESEARCH</p><h2 id="research-title">Three questions.<br><em>One computational thread.</em></h2></div><p class="section-description">From electrode design to solver reliability, my work connects physical modeling with methods that learn. All projects below are ongoing research.</p></div>
+      <div class="section-heading"><div><p class="eyebrow">01 / RESEARCH</p><h2 id="research-title">Three questions.<br><em>One computational thread.</em></h2></div><p class="section-description">From electrode design to solver reliability, my work connects physical modeling with methods that learn. The three projects below are ongoing research.</p></div>
       <article class="project" id="ecsp">
         <div class="project-visual visual-ecsp" aria-hidden="true">
           <span class="visual-index">01</span>
@@ -95,6 +95,29 @@
         </div>
       </article>
       <div class="research-footer"><p>Code, methodology, and current limitations live alongside each project.</p><a class="text-link" href="https://github.com/slwjackie" target="_blank" rel="noopener noreferrer">All GitHub repositories <span aria-hidden="true">↗</span></a></div>
+
+      <section class="project research-direction" id="turbine" aria-labelledby="turbine-title">
+        <div class="direction-intro">
+          <p class="eyebrow">INDEPENDENT RESEARCH PROPOSAL</p>
+          <h3 id="turbine-title">Wheel-space swirl<br>&amp; turbine rim sealing</h3>
+          <p class="direction-context">Literature-based concept.<br>Analysis and experiments have not started.</p>
+          <ul class="tags" aria-label="Proposed research topics"><li>Turbine rim seals</li><li>Ingress Wave Model</li><li>Swirl scaling</li></ul>
+        </div>
+        <div class="project-content">
+          <div class="project-meta"><span>TURBOMACHINERY / SEALING</span><span class="ongoing">Proposed</span></div>
+          <p class="project-question">Can wheel-space swirl help predict the sealing performance of rotor-side swirlers?</p>
+          <p>Reading published work on turbine rim seals led me to formulate a question: how should the Ingress Wave Model (IWM) fluctuation-amplitude parameter Φ<sub>A</sub> be adjusted when a swirler changes the wheel-space flow?</p>
+          <p>I would like to investigate whether measured wheel-space swirl can complement annulus-swirl-based scaling to improve predictions of sealing effectiveness and required sealing flow.</p>
+          <details><summary>Proposed study <span class="details-symbol" aria-hidden="true">+</span></summary><div class="brief">
+            <p><strong>Analysis plan.</strong> If suitable baseline and rotor-side swirler datasets become available, quantify the relationship between measured wheel-space swirl and Φ<sub>A</sub>. Compare multiple flow coefficients where the data permit.</p>
+            <p><strong>Validation plan.</strong> Evaluate predictions at operating conditions excluded from calibration, accounting for measurement uncertainty. The question is whether adding wheel-space swirl improves prediction beyond the existing annulus-swirl-based scaling.</p>
+            <p><strong>Possible experimental work.</strong> If access and facilities permit, participate in measurements of sealing effectiveness and radial wheel-space swirl. The scope would be refined with the supervising professor around available data, equipment, and ongoing lab research.</p>
+            <p><strong>Context and status.</strong> This proposal was formulated independently from published literature. My interaction with Prof. Sungjin Song was a meeting; I have not held an internship or research appointment in his lab. No data analysis, experimental measurements, or validation results have been completed for this proposal.</p>
+          </div></details>
+          <div class="project-links"><a class="text-link" href="https://github.com/slwjackie/Turbine" target="_blank" rel="noopener noreferrer">Related preparatory code <span aria-hidden="true">↗</span></a><span class="repo-name">Turbine</span></div>
+          <p class="direction-note">The linked repository contains a separate secondary-air allocation proof of concept using published data. It does not yet implement the IWM proposal described here.</p>
+        </div>
+      </section>
     </section>
 
     <section class="about-section" id="about" aria-labelledby="about-title"><div class="page-width about-grid">
